@@ -112,14 +112,14 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp CARET  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &kp AMPERSAND  &kp ASTERISK  &kp DELETE  &trans  &trans  &kp UNDERSCORE  &kp PLUS  &kp LBKT  &kp RBKT  &kp BSLH      &trans  &trans  &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC  &kp RBRC  &kp PIPE    &trans  &trans  &trans  &trans  &trans  &trans
+  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp CARET  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &hrm_l LEFT_COMMAND AMPERSAND  &hrm_l LEFT_ALT ASTERISK  &hrm_l LEFT_SHIFT DELETE  &hrm_l LEFT_CONTROL LEFT_CONTROL  &trans  &kp UNDERSCORE  &hrm_r RIGHT_CONTROL PLUS  &hrm_r RIGHT_SHIFT LEFT_BRACKET  &hrm_r RIGHT_ALT RIGHT_BRACKET  &hrm_r RIGHT_COMMAND BACKSLASH      &trans  &trans  &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC  &kp RBRC  &kp PIPE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         lower_layer {
             display-name = "number";
             bindings = <
-  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans  &kp F7  &kp F8  &kp F9  &trans      &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_r RIGHT_COMMAND RIGHT_COMMAND      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans  &kp F7  &kp F8  &kp F9  &trans      &hrm_l LEFT_COMMAND LEFT_COMMAND  &hrm_l LEFT_ALT KP_NUMBER_4  &hrm_l LEFT_SHIFT KP_NUMBER_5  &hrm_l LEFT_CONTROL KP_NUMBER_6  &trans  &trans  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_r RIGHT_COMMAND RIGHT_COMMAND      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -133,7 +133,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-  &trans  &mkp MB1  &mmv MOVE_UP  &mkp RCLK  &trans  &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans  &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_CLR      &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &sys_reset  &studio_unlock  &bootloader
+  &trans  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &trans  &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans  &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_CLR      &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &sys_reset  &studio_unlock  &bootloader
             >;
         };
 
