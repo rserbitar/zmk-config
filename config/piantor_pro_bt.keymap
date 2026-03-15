@@ -140,7 +140,7 @@
         lower_layer {
             display-name = "number";
             bindings = <
-  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &kp F7  &kp F8  &kp F9  &none      &hrm_lsuper LEFT_COMMAND LEFT_COMMAND  &hrm_l LEFT_ALT NUMBER_4  &hrm_l LEFT_SHIFT NUMBER_5  &hrm_l LEFT_CONTROL NUMBER_6  &none  &none  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_rsuper RIGHT_COMMAND RIGHT_COMMAND      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &kp F1  &kp F2  &kp F3  &none    &trans  &trans  &trans  &trans  &trans  &trans
+  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &kp F7  &kp F8  &kp F9  &kp F12      &hrm_lsuper LEFT_COMMAND LEFT_COMMAND  &hrm_l LEFT_ALT NUMBER_4  &hrm_l LEFT_SHIFT NUMBER_5  &hrm_l LEFT_CONTROL NUMBER_6  &none  &none  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_rsuper RIGHT_COMMAND F11      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &kp F1  &kp F2  &kp F3  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
