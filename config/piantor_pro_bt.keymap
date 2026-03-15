@@ -119,7 +119,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &hrm_lsuper LEFT_COMMAND A  &hrm_l LEFT_ALT S  &hrm_lshift LEFT_SHIFT D  &hrm_l LEFT_CONTROL F  &kp G  &kp H  &hrm_r RIGHT_CONTROL J  &hrm_rshift RIGHT_SHIFT K  &hrm_r RIGHT_ALT L  &hrm_rsuper RIGHT_COMMAND SEMI      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &morphed_comma  &morphed_dot  &kp FSLH    &gresc  &lt 1 SPACE  &lt 3 TAB  &kp RET  &lt 2 SPACE  &kp BACKSPACE
+  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &hrm_lsuper LEFT_COMMAND A  &hrm_l LEFT_ALT S  &hrm_lshift LEFT_SHIFT D  &hrm_l LEFT_CONTROL F  &kp G  &kp H  &hrm_r RIGHT_CONTROL J  &hrm_rshift RIGHT_SHIFT K  &hrm_r RIGHT_ALT L  &hrm_rsuper RIGHT_COMMAND SEMI      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &morphed_comma  &morphed_dot  &kp FSLH    &kp TAB  &lt 1 SPACE  &lt 3 ESCAPE  &kp RET  &lt 2 SPACE  &kp BACKSPACE
             >;
         };
 
@@ -133,14 +133,14 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp CARET  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &hrm_lsuper LEFT_COMMAND AMPERSAND  &hrm_l LEFT_ALT ASTERISK  &hrm_l LEFT_SHIFT DELETE  &hrm_l LEFT_CONTROL LEFT_CONTROL  &trans  &kp UNDERSCORE  &hrm_r RIGHT_CONTROL PLUS  &hrm_r RIGHT_SHIFT LEFT_BRACKET  &hrm_r RIGHT_ALT RIGHT_BRACKET  &hrm_rsuper RIGHT_COMMAND BACKSLASH      &trans  &trans  &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC  &kp RBRC  &kp PIPE    &trans  &trans  &trans  &trans  &trans  &trans
+  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &hrm_lsuper LEFT_COMMAND GRAVE  &hrm_l LEFT_ALT ASTERISK  &hrm_l LEFT_SHIFT DELETE  &hrm_l LEFT_CONTROL LEFT_CONTROL  &none  &kp MINUS  &hrm_r RIGHT_CONTROL EQUAL  &hrm_r RIGHT_SHIFT LEFT_BRACKET  &hrm_r RIGHT_ALT RIGHT_BRACKET  &hrm_rsuper RIGHT_COMMAND BACKSLASH      &none  &kp LESS_THAN  &kp GREATER_THAN  &none  &none  &kp UNDERSCORE  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         lower_layer {
             display-name = "number";
             bindings = <
-  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans  &kp F7  &kp F8  &kp F9  &trans      &hrm_lsuper LEFT_COMMAND LEFT_COMMAND  &hrm_l LEFT_ALT NUMBER_4  &hrm_l LEFT_SHIFT NUMBER_5  &hrm_l LEFT_CONTROL NUMBER_6  &trans  &trans  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_rsuper RIGHT_COMMAND RIGHT_COMMAND      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &kp F7  &kp F8  &kp F9  &none      &hrm_lsuper LEFT_COMMAND LEFT_COMMAND  &hrm_l LEFT_ALT NUMBER_4  &hrm_l LEFT_SHIFT NUMBER_5  &hrm_l LEFT_CONTROL NUMBER_6  &none  &none  &hrm_r RIGHT_CONTROL F4  &hrm_r RIGHT_SHIFT F5  &hrm_r RIGHT_ALT F6  &hrm_rsuper RIGHT_COMMAND RIGHT_COMMAND      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &kp F1  &kp F2  &kp F3  &none    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -154,7 +154,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-  &trans  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &trans  &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans  &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_CLR      &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bootloader  &sys_reset  &trans  &trans  &studio_unlock  &trans
+  &bt BT_CLR  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &none  &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &none  &kp PAGE_UP      &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &kp PAGE_DOWN    &bootloader  &sys_reset  &trans  &trans  &studio_unlock  &trans
             >;
         };
     };
